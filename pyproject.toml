@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "Python Project Template"
+name = "python-project-template" # Package names cannot contain caps or spaces
 version = "0.1.0"
 description = "A template for Python Projects designed to be quick to set up and easy to ensure compatibility"
 requires-python = ">=3.8"
