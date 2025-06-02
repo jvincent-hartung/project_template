@@ -22,6 +22,11 @@ optimize = "src.main:main"
 testpaths = ["tests"]
 python_files = ["test_*.py"]
 
+[tool.pylint.MASTER]
+init-hook = 'import sys; sys.path.append("src")'
+# Alternative approach:
+# pythonpath = ["src"]
+
 [tool.pylint]
 max-line-length = 120
 
